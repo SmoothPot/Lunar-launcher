@@ -1,0 +1,169 @@
+@keyframes pulse {
+  0% {
+    opacity: 0.80;
+  }
+  100% {
+    opacity: 0.15;
+  }
+}
+
+@keyframes s1 {
+  0% {
+    left: calc(50% - 20px);
+    top: calc(9% + 10px);
+  }
+  100% {
+    left: calc(50% - 64px);
+    top: calc(9%);
+  }
+}
+
+@keyframes s2 {
+  0% {
+    left: calc(50% - 20px);
+    top: calc(9% + 40px);
+  }
+  100% {
+    left: calc(50% - 64px);
+    top: calc(9%);
+  }
+}
+
+@keyframes s4 {
+  0% {
+    top: calc(9% + 60px);
+  }
+  100% {
+    top: calc(9%);
+  }
+}
+
+@keyframes s5 {
+  0% {
+    left: calc(50% - 100px);
+    top: calc(9% + 60px);
+  }
+  100% {
+    left: calc(50% - 64px);
+    top: calc(9%);
+  }
+}
+
+@keyframes s3 {
+  0% {
+    top: calc(9% + 60px);
+  }
+  100% {
+    top: calc(9%);
+  }
+}
+
+@keyframes s6 {
+  0% {
+    left: calc(50% - 75px);
+    top: calc(9% + 45px);
+  }
+  100% {
+    left: calc(50% - 64px);
+    top: calc(9%);
+  }
+}
+
+@keyframes s7 {
+  0% {
+    left: calc(50% - 80px);
+    top: calc(9% + 30px);
+  }
+  100% {
+    left: calc(50% - 64px);
+    top: calc(9%);
+  }
+}
+
+@keyframes s8 {
+  0% {
+    left: calc(50% - 100px);
+    top: calc(9% + 40px);
+  }
+  100% {
+    left: calc(50% - 64px);
+    top: calc(9%);
+  }
+}
+
+.animatedlogo {
+  left: calc(50% - 64px);
+  top: calc(9%);
+  position: absolute;
+  z-index: 13;
+}
+
+.star1 {
+  animation:
+    s1 0.3s linear 0s,
+    pulse 04.4s linear 1s infinite alternate;
+  left: calc(50% - 20px);
+  top: calc(9% + 10px);
+  animation-fill-mode: forwards;
+}
+
+.star2 {
+  animation:
+    s2 0.3s linear 0.1s,
+    pulse 05.3s linear 1.2s infinite alternate;
+  left: calc(50% - 20px);
+  top: calc(9% + 40px);
+  animation-fill-mode: forwards;
+}
+
+.star3 {
+  animation:
+    s3 0.3s linear 0.2s,
+    pulse 07.2s linear 1.4s infinite alternate;
+  top: calc(9% + 60px);
+  animation-fill-mode: forwards;
+}
+
+.star4 {
+  animation:
+    s4 0.3s linear 0.3s,
+    pulse 09.3s linear 1.6s infinite alternate;
+  top: calc(9% + 60px);
+  animation-fill-mode: forwards;
+}
+
+.star6 {
+  animation:
+    s6 0.3s linear 0.4s,
+    pulse 10.8s linear 1.8s infinite alternate;
+  left: calc(50% - 75px);
+  top: calc(9% + 45px);
+  animation-fill-mode: forwards;
+}
+
+.star5 {
+  animation:
+    s5 0.3s linear 0.5s,
+    pulse 08.2s linear 2s infinite alternate;
+  left: calc(50% - 100px);
+  top: calc(9% + 60px);
+  animation-fill-mode: forwards;
+}
+
+.star7 {
+  animation:
+    s7 0.3s linear 0.6s,
+    pulse 06.9s linear 2.2s infinite alternate;
+  left: calc(50% - 80px);
+  top: calc(9% + 30px);
+  animation-fill-mode: forwards;
+}
+
+.star8 {
+  animation:
+    s8 0.3s linear 0.7s,
+    pulse 7.5s linear 2.4s infinite alternate;
+  left: calc(50% - 100px);
+  top: calc(9% + 40px);
+  animation-fill-mode: forwards;
+}

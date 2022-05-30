@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+.pseudo-body {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1144px;
+    height: 644px;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: 20px;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+}
+
+.home-page {
+  visibility: visible;
+}
+
+.settings-page {
+  visibility: hidden;
+}
+
+header {
+    height: 8%;
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
+.background-img {
+    left: -19px;
+    top: -56px;
+    position: absolute;
+    width: 1182px;
+    height: 1019px;
+    z-index:4;
+}
+
+.footer-background {
+    left: -21px;
+    top: 590px;
+    position: absolute;
+    width: 1182px;
+    height: 62px;
+    background-color: #1A1E1D;
+    z-index:6;
+}
+
+#settings-memory {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 263px;
+  width: 400px; /* Full-width */
+  height: 15px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  z-index: 100;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#settings-memory-label {
+  position: absolute;
+  left: calc(50% - 100px);
+  text-align: center;
+  width: 200px;
+  top: 229px;
+  font-size: 14px;
+  z-index: 100;
+  color: #1A1E1D;
+  letter-spacing: 1.5px;
+  word-spacing: 1.5px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+#settings-memory-value {
+  position: absolute;
+  left: calc(50% - 260px);
+  top: 248px;
+  z-index: 100;
+}
+
+#settings-memory::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 10px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: #818181;
+  cursor: pointer; /* Cursor on hover */
+  z-index: 100;
+}
+
+.settings-boundingbox {
+    left: calc(50% - 300px);
+    top: 233px;
+    position: absolute;
+    width: 600px;
+    height: 296px;
+    z-index: 16;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.moonsworth-logo {
+    left: 15px;
+    top: 604px;
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    z-index: 7;
+}
+
+.close-button {
+    left: 1108px;
+    top: 21px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    z-index: 8;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.settings-tab {
+    left: 455px;
+    top: 23px;
+    position: absolute;
+    width: 77px;
+    height: 8px;
+    z-index:10;
+    font-size: 10px;
+    letter-spacing: 3.2px;
+    word-spacing: 2px;
+    color: #C4C4C4;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.home-tab {
+    left: calc(50% - 20px);
+    top: 23px;
+    position: absolute;
+    width: 41px;
+    height: 8px;
+    z-index:11;
+    font-size: 10px;
+    letter-spacing: 3.2px;
+    word-spacing: 2px;
+    color: #C4C4C4;
+    font-weight:bolder;
+    font-variant:small-caps;
+    text-transform: uppercase;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.store-tab {
+    left: 615px;
+    top: 23px;
+    position: absolute;
+    width: 89px;
+    height: 8px;
+    z-index:12;
+    font-size: 10px;
+    letter-spacing: 3.2px;
+    word-spacing: 2px;
+    color: #C4C4C4;
+    font-weight:bolder;
+    font-variant:small-caps;
+    text-transform: uppercase;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.client-name-1 {
+    left: calc(50% - 91px);
+    top: calc(25%);
+    position: absolute;
+    z-index: 14;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.client-name-2 {
+    left: calc(50% + 4px);
+    top: calc(25%);
+    position: absolute;
+    z-index: 14;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.blog-title-holder {
+    left: 183px;
+    top: 245px;
+    position: absolute;
+    width: 550px;
+    height: 8px;
+    z-index: 19;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #262626;
+}
+
+.blog-boundingbox {
+    left: calc(50% - 445px);
+    top: 233px;
+    position: absolute;
+    width: 890px;
+    height: 296px;
+    z-index: 16;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.blog-content-holder {
+    left: 144px;
+    top: 276px;
+    position: absolute;
+    width: 817px;
+    height: 134px;
+    z-index: 18;
+    font-size: 14px;
+    line-height: 16pt;
+    color: #818181;
+    font-weight: normal;
+}
+
+.blog-author-holder {
+    left: 183px;
+    top: 256px;
+    position: absolute;
+    height: 10px;
+    z-index: 22;
+    font-size: 12px;
+    color: #818181;
+    font-weight: 600;
+}
+
+.blog-author-skin {
+  left: 144px;
+  top: 248px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  z-index: 20;
+  border-radius: 5px;
+}
+
+.notmojang-holder {
+    left: 884px;
+    top: 595px;
+    position: absolute;
+    width: 246px;
+    height: 8px;
+    z-index:20;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    color: #747474;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.copyright-holder {
+    left: 57px;
+    top: 595px;
+    position: absolute;
+    width: 264px;
+    height: 10px;
+    z-index:21;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    color: #747474;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.launch-text {
+    left: calc(50% - 193px);
+    top: 570px;
+    position: absolute;
+    width: 386px;
+    height: 13px;
+    z-index: 25;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 0px 2px 2px #262626;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.launch-button {
+    left: calc(50% - 193px);
+    top: 505px;
+    position: absolute;
+    width: 386px;
+    height: 155px;
+    z-index: 15;
+    cursor: pointer;
+}

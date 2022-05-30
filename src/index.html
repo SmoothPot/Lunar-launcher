@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lunar Client</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto" rel="stylesheet">
+		<link href="css/animatedlogo.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="pseudo-body">
+			<!-- Background -->
+			<div class="background-img">
+				<img draggable="false" src="images/background.png">
+			</div>
+
+			<header>
+				<!-- Close button -->
+				<div class="close-button">
+					<img draggable="false" src="images/close.png">
+				</div>
+
+
+				<!-- Selection menu -->
+				<div class="settings-tab">
+					<h>Settings</h>
+				</div>
+				<div class="home-tab">
+					<h>Home</h>
+				</div>
+				<div class="store-tab">
+					<h>Store</h>
+				</div>
+			</header>
+
+
+			<!-- Logo -->
+			<img draggable="false" class="animatedlogo base" src="images/animatedlogo/base.png">
+			<img draggable="false" class="animatedlogo star1" src="images/animatedlogo/s1.png">
+			<img draggable="false" class="animatedlogo star2" src="images/animatedlogo/s2.png">
+			<img draggable="false" class="animatedlogo star3" src="images/animatedlogo/s3.png">
+			<img draggable="false" class="animatedlogo star4" src="images/animatedlogo/s4.png">
+			<img draggable="false" class="animatedlogo star5" src="images/animatedlogo/s5.png">
+			<img draggable="false" class="animatedlogo star6" src="images/animatedlogo/s6.png">
+			<img draggable="false" class="animatedlogo star7" src="images/animatedlogo/s7.png">
+			<img draggable="false" class="animatedlogo star8" src="images/animatedlogo/s8.png">
+			<p class="client-name-1">Lunar</p>
+			<p class="client-name-2">Client</p>
+
+
+			<section class="home-page">
+				<!-- Blog post -->
+				<div class="blog-boundingbox"></div>
+				<img draggable="false" class="blog-author-skin">
+				<div class="blog-author-holder">
+					<p class="blog-author"></p>
+				</div>
+				<div class="blog-content-holder">
+					<p class="blog-content"></p>
+				</div>
+				<div class="blog-title-holder">
+					<h class="blog-title"></h>
+				</div>
+
+
+				<!-- Launch button -->
+				<div class="launch-text">Loading...</div>
+				<img draggable="false" class="launch-button" src="images/launch/loading.png">
+			</section>
+
+			<section class="settings-page">
+				<div class="settings-boundingbox"></div>
+				<p id="settings-memory-label">Allocated RAM</p>
+				<p id="settings-memory-value">Loading</p>
+				<input type="range" min="1024" max="8192" value="1024" class="slider" id="settings-memory">
+			</section>
+
+			<!-- footer -->
+			<div class="notmojang-holder">
+				<p>Not affiliated with Mojang AB</p>
+			</div>
+			<div class="copyright-holder">
+				<p class="copyright"></p>
+			</div>
+			<div class="footer-background"></div>
+			<div class="moonsworth-logo">
+				<img draggable="false" src="images/moonsworth-logo.png">
+			</div>
+
+		</div>
+
+		<script>
+			require('src/js/common.js');
+			require('src/js/home.js');
+			require('src/js/settings.js');
+		</script>
+	</body>
+</html>
