@@ -1,16 +1,20 @@
 # Lunar-launcher
 Lunar Client Launcher Source Code
 
-# **To Install**
+# **Install instruction**
 
 **-** open terminal then type
 
-` npm i                 `
+```
+npm install 
+```
 
 **to download all dependencies**
 
-**then type**
+**-** **then type**
 
-`npm start`
+```
+npm start
+```
 
 **You Can customize it using the index.html file**
