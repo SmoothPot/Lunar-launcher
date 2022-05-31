@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-**-** **I will never Update This Project You can fix Vulnerability yourself**
+**-** **I will never Update This Project You can fix Vulnerability By Yourself**
